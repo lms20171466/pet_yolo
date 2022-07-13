@@ -1,0 +1,5 @@
+train: '/Users/iminseob/Desktop/yolov5/dataset/train.txt'
+val: '/Users/iminseob/Desktop/yolov5/dataset/val.txt'
+
+nc: 3
+names: ['person','cat','dog']
