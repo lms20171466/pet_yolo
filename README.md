@@ -17,7 +17,7 @@
 
 1. 위의 Dropbox링크에 가시면 다음과 같이 구성되어 있습니다.
     
-    <img width="1043" alt="dropbox" src="[https://user-images.githubusercontent.com/70929261/178729121-a6f1c98d-1780-4f9d-9b13-cce6494d5ad0.png](https://user-images.githubusercontent.com/70929261/178729121-a6f1c98d-1780-4f9d-9b13-cce6494d5ad0.png)">
+    ![dropbox.png](dropbox.png)
     
 2. 여기서 압축파일들을 다운로드 받아서 압축을 해제하면 됩니다(이 경우 z01 ~ z04파일을 다 받아야 압축이 정상적으로 작동합니다)
 
