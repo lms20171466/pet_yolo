@@ -57,7 +57,7 @@ def createFolder(directory):
         print("Error: Creating directory." + directory)
 
 if __name__ == '__main__':
-    dataDir = 'C:/Users/user/Documents/GitHub/Cat_Dog_Person_Detection'
+    dataDir = 'C:/Users/user/Documents/GitHub/pet_yolo'
 
     # 주석 풀면서 사용(하나씩)
     # dataType = 'train2017'
