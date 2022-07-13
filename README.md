@@ -9,5 +9,7 @@
 4. 3번을 수행하면, dataset폴더에 train.txt파일과 val.txt.파일이 생성됩니다. dataset폴더안에 위치한 data.yaml 파일을 열어, 1, 2 line의 경로를 각각 train.txt, val.txt의 경로로 수정합니다.
 
 5. 터미널 / cmd / powershell 에서 
-!python ./pet_yolo/yolov5/train.py --img 640 --batch 32 --epochs 50 --data ./pet_yolo/dataset/data.yaml --cfg ./pet_yolo/yolov5/models/yolov5s.yaml --weights ./pet_yolo/yolov5/yolov5s.pt --name yolov5_sampl
+
+!python ./pet_yolo/yolov5/train.py --img 640 --batch 32 --epochs 50 --data ./pet_yolo/dataset/data.yaml --cfg ./pet_yolo/yolov5/models/yolov5s.yaml --weights ./pet_yolo/yolov5/yolov5s.pt --name yolov5_sample
+
 위 코드를 실행하여, yolo 모델을 학습시킬 수 있습니다.
