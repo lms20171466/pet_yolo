@@ -6,10 +6,26 @@
 
 1. 윈도우이용자의 경우 다음 링크를 참고하셔서 실행하셔야 합니다
     
-    [https://jjeamin.github.io/posts/coco_api/](https://jjeamin.github.io/posts/coco_api/) (저는 visual studio 2015를 설치하지 않았습니다만, 작동이 되지 않는다면 링크 그대로 따라하시는 것을 권장합니다)
+    [https://jjeamin.github.io/posts/coco_api/](https://jjeamin.github.io/posts/coco_api/)
     
-2. 병렬 처리를 활용해 진행하였기 때문에 마지막에 있는 parmap.map에서 pm_processes를 본인의 컴퓨터에 맞게 수정하셔서 사용하셔야 합니다
-    1. 단일로 할 경우 오래걸린다는 단점이 있습니다
+     * 저는 visual studio 2015를 설치하지 않았습니다만, 작동이 되지 않는다면 링크 그대로 따라하시는 것을 권장합니다
+    
+2. [cocodataset.org](http://cocodataset.org) 에서 Dataset → Download로 간 이후 Annotations에서 다음과 같은 항목을 받아줍니다
+    
+    ![coco.png](img/coco.png)
+    
+3. 압축을 풀게 되면 다음과 같이 이미지가 있습니다, 저희는 instance_가 있는 json파일을 제외하고 사용하지 않기 때문에 삭제하셔도 됩니다
+    
+    ![json.png](img/json.png)
+    
+4. Download_COCO(YOLO_format).py의 다음과 같은 부분을 사용하실 폴더에 맞게 수정해 주시면 됩니다
+    
+    ![code.png](img/code.png)
+    
+5. 병렬 처리를 활용해 진행하였기 때문에 마지막에 있는 parmap.map에서 pm_processes를 본인의 컴퓨터에 맞게 수정하셔서 사용하셔야 합니다
+    
+    단일로 할 경우 오래걸린다는 단점이 있습니다
+    
 
 ## 2. 압축파일 다운로드 이후 사용하기(권장)
 
@@ -17,7 +33,7 @@
 
 1. 위의 Dropbox링크에 가시면 다음과 같이 구성되어 있습니다.
     
-    ![dropbox.png](dropbox.png)
+    ![dropbox.png](img/dropbox.png)
     
 2. 여기서 압축파일들을 다운로드 받아서 압축을 해제하면 됩니다(이 경우 z01 ~ z04파일을 다 받아야 압축이 정상적으로 작동합니다)
 
