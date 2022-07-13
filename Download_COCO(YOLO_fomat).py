@@ -130,4 +130,4 @@ if __name__ == '__main__':
     myIds = list(set(uni_personIds + uni_dogIds + uni_catIds + person_catIds + person_dogIds + cat_dogIds))
     print("Final image number :", len(myIds))
 
-    parmap.map(save_img_and_bbox, myIds, coco, pm_pbar = True, pm_processes = 15)
+    parmap.map(save_img_and_bbox, myIds, coco, pm_pbar = True, pm_processes = 15) # 본인의 코어수에 맞게 수정해서 사용해야 합니다
