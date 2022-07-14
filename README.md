@@ -42,7 +42,7 @@
 1. repository를 clone합니다
 2. 앞에서 다운로드 받은 파일을 dataset폴더로 이동시킵니다
 3. 1_imagesplit.py를 열고 5, 7, 10, 13 line에 기재된 Path를 자신의 경우에 맞게 수정합니다. (Clone한 pet_yolo 폴더를 working directory로 설정하면 수정하지 않아도 됩니다)
-    1. 이후 1_imagesplit.py를 실행합니다
+   이후 1_imagesplit.py를 실행합니다
 4. 3번 과정을 수행하면 dataset폴더에 train.txt파일과 val.txt파일이 생성됩니다. dataset폴더 안에 위치한 data.yaml파일을 열어 1, 2line의 경로를 각각 train.txt, val.txt의 경로로 수정합니다
 5. 터미널, cmd, powershell에서 아래와 같은 코드를 실행하면 학습이 시작됩니다
     
@@ -57,5 +57,5 @@
     ```
     이때, --weights는 Yolov5 학습결과 생성된 자신의 best.pt 경로로 수정합니다.
 2. 1을 수행하면, --weights의 경로에 ptl파일이 생성됩니다.
-3. 생성된 ptl파일을 ./pet_yolo/PetCCTV/app/src/main/assets/ 로 이동합니다.
+3. 생성된 ptl파일을 ./PetCCTV/app/src/main/assets/ 로 이동합니다.
 4. Android Studio를 설치한 뒤, PetCCTV를 Project의 경로로 지정하고 Build하면 자신이 커스텀한 모델을 사용한 apk를 생성할 수 있습니다.
