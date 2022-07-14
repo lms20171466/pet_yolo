@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.18165467625899281" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.303" />
+        <entry key="app/src/main/res/drawable/baek_ryang_geum__fruit_.xml" value="0.303" />
+        <entry key="app/src/main/res/drawable/cham_ga_si__fruit_.xml" value="0.303" />
+        <entry key="app/src/main/res/drawable/cham_kkot__flower_.xml" value="0.303" />
+        <entry key="app/src/main/res/drawable/cham_sik__leaf_f_.xml" value="0.303" />
+        <entry key="app/src/main/res/drawable/don__fruit_.xml" value="0.2935" />
+        <entry key="app/src/main/res/drawable/hae_guk__flower_.xml" value="0.303" />
+        <entry key="app/src/main/res/drawable/hwang_geun__flower_.xml" value="0.303" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.303" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_object_detection.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/detection_result.xml" value="0.36684782608695654" />
+        <entry key="app/src/main/res/layout/texture_view.xml" value="0.36684782608695654" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

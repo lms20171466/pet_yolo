@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1011886002/ObjectDetection.iml" filepath="$PROJECT_DIR$/.idea/modules/-1011886002/ObjectDetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ObjectDetection.app.iml" filepath="$PROJECT_DIR$/.idea/modules/ObjectDetection.app.iml" />
+    </modules>
+  </component>
+</project>
