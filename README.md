@@ -61,6 +61,3 @@
 4. Android Studio를 설치한 뒤, PetCCTV를 Project의 경로로 지정하고 Build하면 자신이 커스텀한 모델을 사용한 apk를 생성할 수 있습니다.
 ![image](https://user-images.githubusercontent.com/84885408/178964815-cfbecdc2-218a-4206-9836-98362f41b62d.png)
 5. Live 버튼을 클릭하여 Realtime object detection기능을 사용할 수 있습니다.
-
-    4. !python ./pet_yolo/yolov5/train.py --img 640 --batch 32 --epochs 50 --data ./pet_yolo/dataset/data.yaml --cfg ./pet_yolo/yolov5/models/yolov5s.yaml --weights ./pet_yolo/yolov5/yolov5s.pt --name yolov5_sample클릭하
-    4. !python ./pet_yolo/yolov5/train.py --img 640 --batch 32 --epochs 50 --data ./pet_yolo/dataset/data.yaml --cfg ./pet_yolo/yolov5/models/yolov5s.yaml --weights ./pet_yolo/yolov5/yolov5s.pt --name yolov5_sample
