@@ -53,7 +53,7 @@
 ## Ptl 추출 및 apk 생성하기
 1. 터미널, cmd, powershell에서 아래와 같은 코드를 실행합니다.
     ```bash
-     python export.py --weights runs/train/exp/weights/best.pt --include torchscript
+     !python export.py --weights runs/train/exp/weights/best.pt --include torchscript
     ```
     이때, --weights는 Yolov5 학습결과 생성된 자신의 best.pt 경로로 수정합니다.
 2. 1을 수행하면, --weights의 경로에 ptl파일이 생성됩니다.
