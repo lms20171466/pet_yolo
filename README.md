@@ -59,3 +59,4 @@
 2. 1을 수행하면, --weights의 경로에 ptl파일이 생성됩니다.
 3. 생성된 ptl파일을 ./PetCCTV/app/src/main/assets/ 로 이동합니다.
 4. Android Studio를 설치한 뒤, PetCCTV를 Project의 경로로 지정하고 Build하면 자신이 커스텀한 모델을 사용한 apk를 생성할 수 있습니다.
+![image](https://user-images.githubusercontent.com/84885408/178964314-5f4bac78-0c4a-4964-a6fe-8cf696e58558.png)
