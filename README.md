@@ -42,7 +42,7 @@
 1. repository를 clone합니다
 2. 앞에서 다운로드 받은 파일을 dataset폴더로 이동시킵니다
 3. 1_imagesplit.py를 열고 5, 7, 10, 13 line에 기재된 Path를 자신의 경우에 맞게 수정합니다. (Clone한 pet_yolo 폴더를 working directory로 설정하면 수정하지 않아도 됩니다)
-   이후 1_imagesplit.py를 실행합니다
+   이후 1_imagesplit.py를 실행합니다. (해당 파일 내부에 필요한 패키지를 설치하는 코드가 첨부되어있습니다. 종속성 문제를 해결하기위해 반드시 해당 코드가 실행되어야 합니다. pip을 최신버전으로 수행하는것을 권장합니다.)
 4. 3번 과정을 수행하면 dataset폴더에 train.txt파일과 val.txt파일이 생성됩니다. dataset폴더 안에 위치한 data.yaml파일을 열어 1, 2line의 경로를 각각 train.txt, val.txt의 경로로 수정합니다
 5. 터미널, cmd, powershell에서 아래와 같은 코드를 실행하면 학습이 시작됩니다
     
