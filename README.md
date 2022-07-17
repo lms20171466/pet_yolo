@@ -60,4 +60,4 @@
 3. 생성된 ptl파일을 ./PetCCTV/app/src/main/assets/ 로 이동합니다.
 4. Android Studio를 설치한 뒤, PetCCTV를 Project의 경로로 지정하고 Build하면 자신이 커스텀한 모델을 사용한 apk를 생성할 수 있습니다.
 ![image](https://user-images.githubusercontent.com/84885408/178965559-2663b066-c4cb-4d94-9c04-fa3a39440918.png)
-5. Live 버튼을 클릭하여 Realtime object detection기능을 사용할 수 있습니다..
+5. Live 버튼을 클릭하여 Realtime object detection기능을 사용할 수 있습니다...
