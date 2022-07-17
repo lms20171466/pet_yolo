@@ -93,7 +93,7 @@ def export_torchscript(model, im, file, optimize, prefix=colorstr('TorchScript:'
     # YOLOv5 TorchScript model export
     try:
         LOGGER.info(f'\n{prefix} starting export with torch {torch.__version__}...')
-        f = file.with_suffix('.torchscript')
+        f = file.with_suffix('.torchscript.ptl')
         fl = file.with_suffix('.torchscript.ptl')
 
         ts = torch.jit.trace(model, im, strict=False)
